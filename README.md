@@ -1,55 +1,25 @@
-# React + TypeScript + Vite
+## General Information
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### Project Overview
 
-Currently, two official plugins are available:
+This is a **Simple Password Generator** built with **TypeScript** and **React**. The application allows users to generate secure and random passwords with a customizable length and character set. The user interface is animated and interactive, built using **Framer Motion** for smooth transitions and animations. The app also utilizes **Zustand** for state management, providing a clean and efficient way to manage the app’s state.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+The app enables users to:
+- Choose the length of the password.
+- Select which types of characters to include (e.g., lowercase, uppercase, numbers, symbols).
+- Generate a random password based on the selected criteria.
+- Copy the generated password to the clipboard.
 
-## Expanding the ESLint configuration
+### Key Features
+- **Customizable Password**: Users can choose the length and character set for the password.
+- **Secure Passwords**: Generates random passwords that are secure and difficult to guess.
+- **Smooth Animations**: **Framer Motion** is used to provide smooth animations for the password generation process.
+- **State Management**: Efficient state management using **Zustand**.
+- **Copy to Clipboard**: Easy functionality to copy the generated password with a click of a button.
+- **Modern UI**: A modern, clean, and interactive interface using **React** and **Framer Motion**.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
-
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ["./tsconfig.node.json", "./tsconfig.app.json"],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-});
-```
-
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from "eslint-plugin-react-x";
-import reactDom from "eslint-plugin-react-dom";
-
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    "react-x": reactX,
-    "react-dom": reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs["recommended-typescript"].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-});
-```
-"# Password-generator" 
+### Technologies Used
+- ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white) **TypeScript**: Superset of JavaScript that adds static types for better code quality and readability.
+- ![React](https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black) **React**: JavaScript library for building the user interface.
+- ![Framer Motion](https://img.shields.io/badge/Framer%20Motion-00D084?style=flat&logo=framer&logoColor=white) **Framer Motion**: Animation library for React, providing smooth and interactive animations.
+- ![Zustand](https://img.shields.io/badge/Zustand-8E5F5B?style=flat&logo=redux&logoColor=white) **Zustand**: A minimalistic state management library for React.
