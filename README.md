@@ -18,6 +18,9 @@ The app enables users to:
 - **Copy to Clipboard**: Easy functionality to copy the generated password with a click of a button.
 - **Modern UI**: A modern, clean, and interactive interface using **React** and **Framer Motion**.
 
+#### Dashboard View
+![Dashboard](./screenshots/dashboard.png)
+
 ### Technologies Used
 - ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white) **TypeScript**: Superset of JavaScript that adds static types for better code quality and readability.
 - ![React](https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black) **React**: JavaScript library for building the user interface.
